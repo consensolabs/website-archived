@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'antd';
 
 export default function Header(props) {
   return (
@@ -10,7 +11,11 @@ export default function Header(props) {
           </a>
 
         </h1>
+          <div className="button">
+              <a href={'https://github.com/consensolabs'} target={'blank'}><Button>Our Work</Button></a>
+          </div>
       </div>
+
     </header>
   );
 }
