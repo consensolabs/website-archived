@@ -236,6 +236,108 @@ export const page4 = [
   'https://gw.alipayobjects.com/zos/rmsportal/xsWGKOdkRoJnzHIZlRiD.svg',
 ];
 
+export const TeamDataSource = {
+    wrapper: { className: 'home-page-wrapper content8-wrapper' },
+    page: { className: 'home-page content8' },
+    OverPack: { playScale: 0.3 },
+    titleWrapper: {
+        className: 'title-wrapper',
+        children: [
+            {
+                name: 'image',
+                children:
+                    'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
+                className: 'title-image',
+            },
+            { name: 'title', children: 'Our Team', className: 'title-h1' },
+        ],
+    },
+    block: {
+        className: 'content-wrapper',
+        children: [
+            {
+                name: 'block0',
+                md: 6,
+                xs: 24,
+                className: 'content8-block-wrapper',
+                children: {
+                    className: 'content8-block',
+                    img: {
+                        className: 'content8-img',
+                        children:
+                            'https://media.licdn.com/dms/image/C5103AQE59D-dyOysMQ/profile-displayphoto-shrink_200_200/0?e=1576108800&v=beta&t=UM7cyajk_stOG4g7H1JX5pYpB0H7PPVC1-mpdGKV9y8',
+                    },
+                    title: { className: 'content8-title', children: 'Koshik Raj' },
+                    content: {
+                        className: 'content8-content',
+                        children: 'Co-Founder',
+                    },
+                },
+            },
+            {
+                name: 'block1',
+                md: 6,
+                xs: 24,
+                className: 'content8-block-wrapper',
+                children: {
+                    className: 'content8-block',
+                    img: {
+                        className: 'content8-img',
+                        children:
+                            'https://media.licdn.com/dms/image/C5103AQE_c9LIBwQAiw/profile-displayphoto-shrink_200_200/0?e=1576108800&v=beta&t=uRVTttx-v5tJwuZ9yG8JDambt7ui-vmQMfNW4JdFwT8',
+                    },
+                    title: { className: 'content8-title', children: 'Manmohan Saxena' },
+                    content: {
+                        className: 'content8-content',
+                        children: 'Co-Founder',
+                    },
+                },
+            },
+            {
+                name: 'block2',
+                md: 6,
+                xs: 24,
+                className: 'content8-block-wrapper',
+                children: {
+                    className: 'content8-block',
+                    img: {
+                        className: 'content8-img',
+                        children:
+                            'https://adventhelp.com/wp-content/uploads/2018/06/bio-portrait-placeholder.jpg',
+                    },
+                    title: { className: 'content8-title', children: 'Dr. R Singhi' },
+                    content: {
+                        className: 'content8-content',
+                        children: 'Mentor and Project\n' +
+                        'Sponsor',
+                    },
+                },
+            },
+            {
+                name: 'block2',
+                md: 6,
+                xs: 24,
+                className: 'content8-block-wrapper',
+                children: {
+                    className: 'content8-block',
+                    img: {
+                        className: 'content8-img',
+                        children:
+                            'https://careersoftomorrow.amityonline.com/Home/app/images/SIGChair.png',
+                    },
+                    title: { className: 'content8-title', children: 'Jaswanth Reddy' },
+                    content: {
+                        className: 'content8-content',
+                        children: 'Developer',
+                    },
+                },
+            },
+
+        ],
+    },
+};
+
+
 export const footer = [
   { text: 'Twitter', src: 'https://twitter.com/consensolabs' },
   { text: 'GitHub', src: 'https://github.com/consensolabs' },
