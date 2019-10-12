@@ -39,10 +39,10 @@ class Team extends React.PureComponent {
     const children = dataSource.block.children.map(this.getBlockChildren);
     return (
       <div {...props} {...dataSource.wrapper}>
+
         <div {...dataSource.page}>
-          <div {...dataSource.titleWrapper}>
-            {dataSource.titleWrapper.children.map(getChildrenToRender)}
-          </div>
+            <h2>Our Team</h2>
+            <i className="line" />
           <OverPack {...dataSource.OverPack}>
             <QueueAnim type="bottom" key="img">
               <Row {...dataSource.block} key="img">

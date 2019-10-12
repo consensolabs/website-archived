@@ -22,16 +22,19 @@ class Banner extends React.PureComponent {
             <h1 key="h2">
               A BLOCKCHAIN RESEARCH LAB
             </h1>
-            <p key="p">Dedicated blockchain research center to provide variety of services for students, software engineers and blockchain enthusiasts</p>
+            <p key="p">Dedicated blockchain research center to provide variety of services for students, software engineers and blockchain enthusiasts. We also try to adress critical issues through decentralization. Checkout our DLT based loan syndication platform "SyndLend"</p>
             <span key="button">
+              <a href={'https://syndlend.consensolabs.com'} target={'blank'}>
               <Button
+                style={{fontSize: 15}}
                 type="primary"
                 onClick={() => {
-                window.location.href = '/activity/home';
+
               }}
               >
-                Know more
+                Checkout SyndLend
               </Button>
+              </a>
             </span>
           </QueueAnim>
           <div className={`${className}-image-wrapper`}>

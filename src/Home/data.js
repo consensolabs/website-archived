@@ -5,13 +5,13 @@ export const page1 = [
     title: 'Decentralized loan syndication platform',
     content: 'A DLT based Loan syndication platform created to mitigate the inefficiencies in the tradition loan syndication system used by banks',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/MmROsqZndrFBrIspzLlL.png',
-    link: 'https://github.com/koshikraj/loan-syndication',
+    link: 'https://syndlend.consensolabs.com'
   },
   {
-    title: 'Crowd funding for open source projects',
-    content: 'A GitHub like repository hosting service for open source projects that will rate and incentivize the contributors based on the number of commits and quality of each commit. ',
+    title: 'Decentralized fund management for open source projects',
+    content: 'A decentralized platform to fund the GitHub projects and manage the funds in a fair and transparent way',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/ONvKhpRAmkCfdEhkUZkJ.png',
-    link: 'https://github.com/consensolabs/git-crowd-fund',
+    link: 'https://github.com/gitfunded'
   },
   {
     title: 'Connect to our Bitcoin Lightning node',
@@ -23,7 +23,7 @@ export const page1 = [
 
 export const page2 = [
   {
-    title: 'Blockchain rising hackathon',
+    title: 'Blockchain Rising Hackathon',
     url: 'https://talks.koshikraj.com',
     image: 'https://talks.koshikraj.com/assets/img/slider/talk2.png',
   },

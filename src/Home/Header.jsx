@@ -12,7 +12,7 @@ export default function Header(props) {
 
         </h1>
           <div className="button">
-              <a href={'https://github.com/consensolabs'} target={'blank'}><Button>Our Work</Button></a>
+              <a href={'https://syndlend.consensolabs.com'} target={'blank'}><Button>Our Work</Button></a>
           </div>
       </div>
 
