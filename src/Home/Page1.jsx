@@ -4,73 +4,57 @@ import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import Parallax from 'rc-scroll-anim/lib/ScrollParallax';
 import QueueAnim from 'rc-queue-anim';
 import TweenOne from 'rc-tween-one';
+import shield from './static/images/shield.svg';
+import usecase from './static/images/usecase.svg';
 
 const { TweenOneGroup } = TweenOne;
 
 const featuresCN = [
+
   {
-    title: '优雅美观',
-    content: '基于 Ant Design 体系精心设计',
-    src: 'https://gw.alipayobjects.com/zos/rmsportal/VriUmzNjDnjoFoFFZvuh.svg',
-    color: '#13C2C2',
-    shadowColor: 'rgba(19,194,194,.12)',
-  },
-  {
-    title: '常见设计模式',
-    content: '提炼自中后台应用的典型页面和场景',
-    src: 'https://gw.alipayobjects.com/zos/rmsportal/smwQOoxCjXVbNAKMqvWk.svg',
-    color: '#2F54EB',
-    shadowColor: 'rgba(47,84,235,.12)',
-  },
-  {
-    title: '最新技术栈',
-    content: '使用 React/dva/antd 等前端前沿技术开发',
+    title: 'Cutting Edge Technologies',
+    content: 'We use cutting edge DLT platforms to implement scalable solutions',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/hBbIHzUsSbSxrhoRFYzi.svg',
     color: '#F5222D',
     shadowColor: 'rgba(245,34,45,.12)',
   },
   {
-    title: '响应式',
-    content: '针对不同屏幕大小设计',
-    src: 'https://gw.alipayobjects.com/zos/rmsportal/BISfzKcCNCYFmTYcUygW.svg',
-    color: '#1AC44D',
-    shadowColor: 'rgba(26,196,77,.12)',
+      title: 'Assured Maintenance',
+      content: 'We provide flexible deployment strategies. May it be on premise or cloud deployment',
+      src: 'https://gw.alipayobjects.com/zos/rmsportal/aLQyKyUyssIUhHTZqCIb.svg',
+      color: '#EB2F96',
+      shadowColor: 'rgba(235,45,150,.12)',
   },
   {
-    title: '主题',
-    content: '可配置的主题满足多样化的品牌诉求',
-    src: 'https://gw.alipayobjects.com/zos/rmsportal/XxqEexmShHOofjMYOCHi.svg',
-    color: '#FAAD14',
-    shadowColor: 'rgba(250,173,20,.12)',
+      title: 'Scalable Solutions',
+      content: 'We ensure the scalability of the solution by selecting the right platform by analyzing each use case',
+      src: 'https://gw.alipayobjects.com/zos/rmsportal/pbmKMSFpLurLALLNliUQ.svg',
+      color: '#FA8C16',
+      shadowColor: 'rgba(250,140,22,.12)',
   },
   {
-    title: '国际化',
-    content: '内建业界通用的国际化方案（敬请期待）',
+    title: 'Global Market',
+    content: 'We build DLT solutions to the global market to remove the barriers',
     src: 'https://gw.alipayobjects.com/zos/rmsportal/JsixxWSViARJnQbAAPkI.svg',
     color: '#722ED1',
     shadowColor: 'rgba(114,46,209,.12)',
   },
+
   {
-    title: '最佳实践',
-    content: '良好的工程实践助你持续产出高质量代码',
-    src: 'https://gw.alipayobjects.com/zos/rmsportal/pbmKMSFpLurLALLNliUQ.svg',
-    color: '#FA8C16',
-    shadowColor: 'rgba(250,140,22,.12)',
-  },
-  {
-    title: 'Mock 数据',
-    content: '实用的本地数据调试方案',
-    src: 'https://gw.alipayobjects.com/zos/rmsportal/aLQyKyUyssIUhHTZqCIb.svg',
-    color: '#EB2F96',
-    shadowColor: 'rgba(235,45,150,.12)',
-  },
-  {
-    title: 'UI 测试',
-    content: '自动化测试保障前端产品质量',
-    src: 'https://gw.alipayobjects.com/zos/rmsportal/RpJIQitGbSCHwLMimybX.svg',
+    title: 'Secure Application',
+    content: 'We build applications that are secure and are deployed in the trustless network',
+    src: shield,
     color: '#1890FF',
     shadowColor: 'rgba(24,144,255,.12)',
   },
+
+  {
+    title: 'Wide Range of Usecases',
+    content: 'We work on wide range of financial and non financial blockchain use cases',
+    src: usecase,
+    color: '#722ED1',
+    shadowColor: 'rgba(114,46,209,.12)',
+  }
 ];
 
 const pointPos = [
@@ -161,7 +145,7 @@ class Page1 extends React.PureComponent {
                   '0 6px 12px'} ${item.shadowColor}`,
               }}
             >
-              <img src={item.src} alt="img" style={i === 4 ? { marginLeft: -15 } : {}} />
+              <img src={item.src} alt="img" style={{height:30}} />
             </div>
             <h3>{item.title}</h3>
             <p>{item.content}</p>
@@ -195,7 +179,7 @@ class Page1 extends React.PureComponent {
               Feature
             </Parallax>
           )}
-          <h2>What can <span>Pro</span> do for you </h2>
+          <h2>What does <span>Consenso Labs</span> do ?</h2>
           <div className="title-line-wrapper page1-line">
             <div className="title-line" />
           </div>

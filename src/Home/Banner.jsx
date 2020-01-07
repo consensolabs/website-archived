@@ -4,6 +4,7 @@ import GitHubButton from 'react-github-button';
 import QueueAnim from 'rc-queue-anim';
 import TweenOne from 'rc-tween-one';
 import { Button } from 'antd';
+import BannerImage from './static/images/decentralized.svg';
 import BannerSVGAnim from './component/BannerSVGAnim';
 
 function Banner(props) {
@@ -14,7 +15,7 @@ function Banner(props) {
           <div className="home-banner-image">
             <img
               alt="banner"
-              src="https://gw.alipayobjects.com/zos/rmsportal/rqKQOpnMxeJKngVvulsF.svg"
+              src={BannerImage}
               width="100%"
             />
           </div>
@@ -27,30 +28,32 @@ function Banner(props) {
             style={{ transform: 'translateX(-64px)' }}
           />
         </div>
-        <h1 key="h1">ANT DESIGN PRO</h1>
+        <h1 key="h1">A DLT RESEARCH LAB</h1>
         <p key="content">
-          开箱即用的中台前端/设计解决方案
+            Dedicated blockchain research lab to provide variety of services for students, software engineers and blockchain enthusiasts. We also try to adress critical issues through decentralization. Checkout our DLT based loan syndication platform "SyndLend"
         </p>
         <div key="button" className="button-wrapper">
-          <a href="http://preview.pro.ant.design" target="_blank" rel="noopener noreferrer">
+          <a href="https://syndlend.consensolabs.com/" target="_blank" rel="noopener noreferrer">
             <Button type="primary">
-              预览
+              SyndLend
             </Button>
           </a>
-          <Button style={{ margin: '0 16px' }} type="primary" ghost>
-            开始使用
+          <a href="https://gitfunded.consensolabs.com/" target="_blank" rel="noopener noreferrer">
+            <Button style={{ margin: '0 16px' }} type="primary" ghost>
+              GitFunded
           </Button>
-          <GitHubButton
-            key="github-button"
-            type="stargazers"
-            namespace="ant-design"
-            repo="ant-design-pro"
-          />
+          </a>
+
         </div>
       </QueueAnim>
       {!props.isMobile && (
         <TweenOne animation={{ opacity: 1 }} className="banner-image-wrapper">
-          <BannerSVGAnim />
+          {/*<BannerSVGAnim />*/}
+        <img
+            alt="banner"
+            src={BannerImage}
+            width="55%"
+        />
         </TweenOne>
       )}
     </div>
