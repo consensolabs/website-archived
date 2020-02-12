@@ -30,10 +30,10 @@ function Banner(props) {
         </div>
         <h1 key="h1">A DLT RESEARCH LAB</h1>
         <p key="content">
-            Dedicated blockchain research lab to provide variety of services for students, software engineers and blockchain enthusiasts. We also try to adress critical issues through decentralization. Checkout our DLT based loan syndication platform "SyndLend"
+            Dedicated blockchain research lab to provide variety of services for students, software engineers and blockchain enthusiasts. We also try to address critical issues through decentralization. Checkout our DLT based loan syndication platform "SyndLend"
         </p>
         <div key="button" className="button-wrapper">
-          <a href="https://syndlend.consensolabs.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://syndlend.com/" target="_blank" rel="noopener noreferrer">
             <Button type="primary">
               SyndLend
             </Button>
