@@ -2,6 +2,7 @@ import React from 'react';
 import koshikImg from './static/images/koshik.jpg';
 import manmohanImg from './static/images/manmohan.jpeg';
 import jaswanthImg from './static/images/jaswanth.png';
+import adityaImg from './static/images/aditya.jpg';
 
 export const page1 = [
   {
@@ -330,6 +331,24 @@ export const TeamDataSource = {
                     content: {
                         className: 'content8-content',
                         children: 'Developer'
+                    },
+                },
+            },
+            {
+                name: 'block2',
+                md: 6,
+                xs: 24,
+                className: 'content8-block-wrapper',
+                children: {
+                    className: 'content8-block',
+                    img: {
+                        className: 'content8-img',
+                        children: adityaImg
+                    },
+                    title: { className: 'content8-title', children: 'Aditya Srivastava' },
+                    content: {
+                        className: 'content8-content',
+                        children: 'Blockchain Developer Intern'
                     },
                 },
             },
