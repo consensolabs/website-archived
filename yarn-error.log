@@ -1,0 +1,86 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\abhinavanshul\.yarn\releases\yarn-1.22.0.js install
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Users\abhinavanshul\AppData\Local\Programs\AdoptOpenJDK\bin;C:\Users\abhinavanshul\AppData\Local\Microsoft\WindowsApps;C:\Users\abhinavanshul\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\abhinavanshul\AppData\Roaming\npm;C:\Users\abhinavanshul\AppData\Local\GitHubDesktop\bin;C:\Users\abhinavanshul\AppData\Local\hyper\app-3.0.2\resources\bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  12.6.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@ant-design/icons-svg/-/icons-svg-4.0.0.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\abhinavanshul\.yarn\releases\yarn-1.22.0.js:135765:19)
+      at Object.onceWrapper (events.js:291:20)
+      at ClientRequest.emit (events.js:203:13)
+      at TLSSocket.emitRequestTimeout (_http_client.js:675:40)
+      at Object.onceWrapper (events.js:291:20)
+      at TLSSocket.emit (events.js:203:13)
+      at TLSSocket.Socket._onTimeout (net.js:434:8)
+      at listOnTimeout (internal/timers.js:531:17)
+      at processTimers (internal/timers.js:475:7)
+
+npm manifest: 
+  {
+    "private": true,
+    "entry": {
+      "index": "./index.js"
+    },
+    "dependencies": {
+      "antd": "^4.0.2",
+      "bisheng": "^1.4.6",
+      "enquire": "0.0.2",
+      "enquire-js": "^0.2.1",
+      "prop-types": "^15.6.0",
+      "rc-queue-anim": "^1.4.0",
+      "rc-scroll-anim": "^2.0.2",
+      "react": "^16.1.1",
+      "react-document-title": "^2.0.3",
+      "react-dom": "^16.1.1",
+      "react-github-button": "^0.1.11",
+      "react-intl": "^4.1.1",
+      "webpack": "^4.42.0"
+    },
+    "devDependencies": {
+      "atool-build": "^1.0.2",
+      "atool-test-mocha": "^0.2.1",
+      "babel-eslint": "^10.1.0",
+      "babel-plugin-import": "^1.6.2",
+      "babel-plugin-transform-runtime": "^6.23.0",
+      "babel-runtime": "^6.26.0",
+      "dora": "^0.6.1",
+      "dora-plugin-webpack": "^1.0.0",
+      "eslint": "^6.8.0",
+      "eslint-config-airbnb": "^18.0.1",
+      "eslint-plugin-import": "^2.8.0",
+      "eslint-plugin-jsx-a11y": "^6.0.2",
+      "eslint-plugin-react": "^7.5.1",
+      "expect": "^25.1.0",
+      "gh-pages": "^1.1.0",
+      "pre-commit": "^1.2.2",
+      "rc-tween-one": "^2.6.8",
+      "redbox-react": "^1.5.0"
+    },
+    "pre-commit": [
+      "lint"
+    ],
+    "scripts": {
+      "build": "atool-build && cp index.html dist",
+      "lint": "eslint --ext .js,.jsx src/",
+      "eslint-fix": "eslint --fix src/ --ext .js,.jsx",
+      "start": "dora --plugins webpack",
+      "test": "atool-test-mocha ./**/__tests__/*-test.js",
+      "deploy": "rm -rf dist && npm run build && node ./deploy.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

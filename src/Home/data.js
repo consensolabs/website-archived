@@ -1,64 +1,76 @@
-import React from 'react';
-import koshikImg from './static/images/koshik.jpg';
-import manmohanImg from './static/images/manmohan.jpeg';
-import jaswanthImg from './static/images/jaswanth.png';
+import React from "react";
+import koshikImg from "./static/images/koshik.jpg";
+import manmohanImg from "./static/images/manmohan.jpeg";
+import jaswanthImg from "./static/images/jaswanth.png";
+import abhinavImg from "./static/images/Abhinav.jpg";
 
 export const page1 = [
   {
-    title: 'Decentralized loan syndication platform',
-    content: 'A DLT based Loan syndication platform created to mitigate the inefficiencies in the tradition loan syndication system used by banks',
-    src: 'https://gw.alipayobjects.com/zos/rmsportal/MmROsqZndrFBrIspzLlL.png',
-    link: 'https://syndlend.consensolabs.com'
+    title: "Decentralized loan syndication platform",
+    content:
+      "A DLT based Loan syndication platform created to mitigate the inefficiencies in the tradition loan syndication system used by banks",
+    src: "https://gw.alipayobjects.com/zos/rmsportal/MmROsqZndrFBrIspzLlL.png",
+    link: "https://syndlend.consensolabs.com"
   },
   {
-    title: 'Decentralized fund management for open source projects',
-    content: 'A decentralized platform to fund the GitHub projects and manage the funds in a fair and transparent way',
-    src: 'https://gw.alipayobjects.com/zos/rmsportal/ONvKhpRAmkCfdEhkUZkJ.png',
-    link: 'https://github.com/gitfunded'
+    title: "Decentralized fund management for open source projects",
+    content:
+      "A decentralized platform to fund the GitHub projects and manage the funds in a fair and transparent way",
+    src: "https://gw.alipayobjects.com/zos/rmsportal/ONvKhpRAmkCfdEhkUZkJ.png",
+    link: "https://github.com/gitfunded"
   },
   {
-    title: 'Connect to our Bitcoin Lightning node',
-    content: 'Bitcoin Lightning node running on top of Bitcoin mainnet',
-    src: 'https://gw.alipayobjects.com/zos/rmsportal/oxmXLgGjCeXfYPcVSbKg.png',
-    link: 'https://1ml.com/node/02976ac944f27b6274921f0faf54182dd578f2028227eefaac81ccc6f70ed40059'
-  },
+    title: "Connect to our Bitcoin Lightning node",
+    content: "Bitcoin Lightning node running on top of Bitcoin mainnet",
+    src: "https://gw.alipayobjects.com/zos/rmsportal/oxmXLgGjCeXfYPcVSbKg.png",
+    link:
+      "https://1ml.com/node/02976ac944f27b6274921f0faf54182dd578f2028227eefaac81ccc6f70ed40059"
+  }
 ];
 
 export const page2 = [
   {
-    title: 'Blockchain Rising Hackathon',
-    url: 'https://talks.koshikraj.com',
-    image: 'https://talks.koshikraj.com/assets/img/slider/talk2.png',
+    title: "Blockchain Rising Hackathon",
+    url: "https://talks.koshikraj.com",
+    image: "https://talks.koshikraj.com/assets/img/slider/talk2.png"
   },
   {
-    title: 'Workshop at SCEM',
-    url: 'https://talks.koshikraj.com',
-    image: 'https://talks.koshikraj.com/assets/img/slider/talk3.jpeg',
+    title: "Workshop at SCEM",
+    url: "https://talks.koshikraj.com",
+    image: "https://talks.koshikraj.com/assets/img/slider/talk3.jpeg"
   },
   {
-    title: 'Conference at Hackers Mangalore',
-    url: 'https://talks.koshikraj.com',
-    image: 'https://talks.koshikraj.com/assets/img/slider/talk4.jpg',
-  },
+    title: "Conference at Hackers Mangalore",
+    url: "https://talks.koshikraj.com",
+    image: "https://talks.koshikraj.com/assets/img/slider/talk4.jpg"
+  }
 ];
 
 export const page3 = [
   {
-    title: 'Student research',
+    title: "Student research",
     content: [
-      <p key="1">Fulltime research guidance for short term and long term projects.</p>,
-
+      <p key="1">
+        Fulltime research guidance for short term and long term projects.
+      </p>
     ],
     // exp: '免费使用',
-    svg: (<svg width="32px" height="32px" viewBox="0 0 32 32">
-      <defs>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="98.8500478%" id="linearGradient-1">
-          <stop stopColor="#FFD24C" offset="0%" />
-          <stop stopColor="#FFB800" offset="100%" />
-        </linearGradient>
-      </defs>
-      <path
-        d="M11.2,19.9763991 L1.43301577,25.9589289
+    svg: (
+      <svg width="32px" height="32px" viewBox="0 0 32 32">
+        <defs>
+          <linearGradient
+            x1="50%"
+            y1="0%"
+            x2="50%"
+            y2="98.8500478%"
+            id="linearGradient-1"
+          >
+            <stop stopColor="#FFD24C" offset="0%" />
+            <stop stopColor="#FFB800" offset="100%" />
+          </linearGradient>
+        </defs>
+        <path
+          d="M11.2,19.9763991 L1.43301577,25.9589289
            C0.542750835,26.5042392 1.20441457e-15,27.4731633 1.33226763e-15,28.5171628
               L0,28.5171628 L0,30 C1.3527075e-16,31.1045695 0.8954305,32 2,32
               L30,32 C31.1045695,32 32,31.1045695 32,30 L32,30 L32,28.5391533
@@ -67,10 +79,10 @@ export const page3 = [
               L23.2,7.2 C23.2,3.2235498 19.9764502,-7.30462051e-16 16,0
               C12.0235498,7.30462051e-16 8.8,3.2235498 8.8,7.2 L8.8,7.2
               L8.8,12.7384615 C8.8,14.8708611 9.72700154,16.7867478 11.2,18.1051172 L11.2,19.9763991 Z"
-        fill="#D9D9D9"
-      />
-      <path
-        d="M11.2,19.9763991 L1.43301577,25.9589289
+          fill="#D9D9D9"
+        />
+        <path
+          d="M11.2,19.9763991 L1.43301577,25.9589289
         C0.542750835,26.5042392 1.20441457e-15,27.4731633 1.33226763e-15,28.5171628
               L0,28.5171628 L0,30 C1.3527075e-16,31.1045695 0.8954305,32 2,32
               L30,32 C31.1045695,32 32,31.1045695 32,30 L32,30 L32,28.5391533
@@ -79,53 +91,55 @@ export const page3 = [
               L23.2,7.2 C23.2,3.2235498 19.9764502,-7.30462051e-16 16,0
               C12.0235498,7.30462051e-16 8.8,3.2235498 8.8,7.2 L8.8,7.2
               L8.8,12.7384615 C8.8,14.8708611 9.72700154,16.7867478 11.2,18.1051172 L11.2,19.9763991 Z"
-        fill="url(#linearGradient-1)"
-        className="icon-hover"
-      />
-    </svg>),
+          fill="url(#linearGradient-1)"
+          className="icon-hover"
+        />
+      </svg>
+    )
   },
   {
-    title: 'Corporate Partnership',
+    title: "Corporate Partnership",
+    content: [<p key="1">Bootcamp workshops and support to corporates!</p>],
+    svg: (
+      <svg width="32px" height="32px" viewBox="0 0 32 32">
+        <path
+          d="M22.3555358,32 L9.93657149,32 L2,32 C0.8954305,32 1.3527075e-16,31.1045695 0,30
+          L0,18 C-1.3527075e-16,16.8954305 0.8954305,16 2,16 L2,16 L6.78535432,16 L6.78535432,2
+        L6.78535432,2 C6.78535432,0.8954305 7.68078482,2.02906125e-16 8.78535432,0 L21.7853543,0
+        C22.8899238,-2.02906125e-16 23.7853543,0.8954305 23.7853543,2 L23.7853543,7 L30,7
+        C31.1045695,7 32,7.8954305 32,9 L32,30 C32,31.1045695 31.1045695,32 30,32 L22.3555358,32
+        Z M10,4 L10,8 L14,8 L14,4 L10,4 Z M10,12 L10,16 L14,16 L14,12 L10,12 Z M10,20 L10,24 L14,24
+        L14,20 L10,20 Z M3,20 L3,24 L7,24 L7,20 L3,20 Z M17,4 L17,8 L21,8 L21,4 L17,4 Z M17,12 L17,16
+        L21,16 L21,12 L17,12 Z M17,20 L17,24 L21,24 L21,20 L17,20 Z M24,20 L24,24 L28,24 L28,20 L24,20
+        Z M24,12 L24,16 L28,16 L28,12 L24,12 Z"
+          fill="#D9D9D9"
+        />
+        <path
+          d="M22.3555358,32 L9.93657149,32 L2,32 C0.8954305,32 1.3527075e-16,31.1045695 0,30
+          L0,18 C-1.3527075e-16,16.8954305 0.8954305,16 2,16 L2,16 L6.78535432,16 L6.78535432,2
+        L6.78535432,2 C6.78535432,0.8954305 7.68078482,2.02906125e-16 8.78535432,0 L21.7853543,0
+        C22.8899238,-2.02906125e-16 23.7853543,0.8954305 23.7853543,2 L23.7853543,7 L30,7
+        C31.1045695,7 32,7.8954305 32,9 L32,30 C32,31.1045695 31.1045695,32 30,32 L22.3555358,32
+        Z M10,4 L10,8 L14,8 L14,4 L10,4 Z M10,12 L10,16 L14,16 L14,12 L10,12 Z M10,20 L10,24 L14,24
+        L14,20 L10,20 Z M3,20 L3,24 L7,24 L7,20 L3,20 Z M17,4 L17,8 L21,8 L21,4 L17,4 Z M17,12 L17,16
+        L21,16 L21,12 L17,12 Z M17,20 L17,24 L21,24 L21,20 L17,20 Z M24,20 L24,24 L28,24 L28,20 L24,20
+        Z M24,12 L24,16 L28,16 L28,12 L24,12 Z"
+          fill="url(#linearGradient-1)"
+          className="icon-hover"
+        />
+      </svg>
+    )
+  },
+  {
+    title: "Help to Launch",
     content: [
-      <p key="1">Bootcamp workshops and support to corporates!</p>,
-
+      <p key="1">
+        Guidance and partnership with early stage blockchain startups!
+      </p>
     ],
     svg: (
       <svg width="32px" height="32px" viewBox="0 0 32 32">
         <path
-          d="M22.3555358,32 L9.93657149,32 L2,32 C0.8954305,32 1.3527075e-16,31.1045695 0,30
-          L0,18 C-1.3527075e-16,16.8954305 0.8954305,16 2,16 L2,16 L6.78535432,16 L6.78535432,2
-        L6.78535432,2 C6.78535432,0.8954305 7.68078482,2.02906125e-16 8.78535432,0 L21.7853543,0
-        C22.8899238,-2.02906125e-16 23.7853543,0.8954305 23.7853543,2 L23.7853543,7 L30,7
-        C31.1045695,7 32,7.8954305 32,9 L32,30 C32,31.1045695 31.1045695,32 30,32 L22.3555358,32
-        Z M10,4 L10,8 L14,8 L14,4 L10,4 Z M10,12 L10,16 L14,16 L14,12 L10,12 Z M10,20 L10,24 L14,24
-        L14,20 L10,20 Z M3,20 L3,24 L7,24 L7,20 L3,20 Z M17,4 L17,8 L21,8 L21,4 L17,4 Z M17,12 L17,16
-        L21,16 L21,12 L17,12 Z M17,20 L17,24 L21,24 L21,20 L17,20 Z M24,20 L24,24 L28,24 L28,20 L24,20
-        Z M24,12 L24,16 L28,16 L28,12 L24,12 Z"
-          fill="#D9D9D9"
-        />
-        <path
-          d="M22.3555358,32 L9.93657149,32 L2,32 C0.8954305,32 1.3527075e-16,31.1045695 0,30
-          L0,18 C-1.3527075e-16,16.8954305 0.8954305,16 2,16 L2,16 L6.78535432,16 L6.78535432,2
-        L6.78535432,2 C6.78535432,0.8954305 7.68078482,2.02906125e-16 8.78535432,0 L21.7853543,0
-        C22.8899238,-2.02906125e-16 23.7853543,0.8954305 23.7853543,2 L23.7853543,7 L30,7
-        C31.1045695,7 32,7.8954305 32,9 L32,30 C32,31.1045695 31.1045695,32 30,32 L22.3555358,32
-        Z M10,4 L10,8 L14,8 L14,4 L10,4 Z M10,12 L10,16 L14,16 L14,12 L10,12 Z M10,20 L10,24 L14,24
-        L14,20 L10,20 Z M3,20 L3,24 L7,24 L7,20 L3,20 Z M17,4 L17,8 L21,8 L21,4 L17,4 Z M17,12 L17,16
-        L21,16 L21,12 L17,12 Z M17,20 L17,24 L21,24 L21,20 L17,20 Z M24,20 L24,24 L28,24 L28,20 L24,20
-        Z M24,12 L24,16 L28,16 L28,12 L24,12 Z"
-          fill="url(#linearGradient-1)"
-          className="icon-hover"
-        />
-      </svg>),
-  },
-  {
-    title: 'Help to Launch',
-    content: [
-      <p key="1">Guidance and partnership with early stage blockchain startups!</p>,],
-    svg: (
-      <svg width="32px" height="32px" viewBox="0 0 32 32">
-        <path
           d="M21.1504124,8.82079742 L16.5552541,3.32558694
           C16.5324137,3.29827282 16.5071873,3.27304601 16.4798736,3.25020514
         C16.2256714,3.03763068 15.8472742,3.07137659 15.6346998,3.32557875
@@ -224,123 +238,138 @@ export const page3 = [
           fill="url(#linearGradient-1)"
           className="icon-hover"
         />
-      </svg>),
-  },
+      </svg>
+    )
+  }
 ];
 
 export const page4 = [
-  'https://gw.alipayobjects.com/zos/rmsportal/kJPmZttedahfIvsZDGTd.svg',
-  'https://gw.alipayobjects.com/zos/rmsportal/ktLOdfjNyExgKyWjiCvm.svg',
-  'https://gw.alipayobjects.com/zos/rmsportal/gNNxbrNqlHdnRuMjUXrL.svg',
-  'https://gw.alipayobjects.com/zos/rmsportal/qWaneWxxMVpASpiCOcsT.svg',
-  'https://gw.alipayobjects.com/zos/rmsportal/kyCpvqWFloOpAOqzOlBg.svg',
-  'https://gw.alipayobjects.com/zos/rmsportal/bBzJNEnPvyhNUhyHipvO.svg',
-  'https://gw.alipayobjects.com/zos/rmsportal/UbEpCMXGBmDgkJXfIgMx.svg',
-  'https://gw.alipayobjects.com/zos/rmsportal/xsWGKOdkRoJnzHIZlRiD.svg',
+  "https://gw.alipayobjects.com/zos/rmsportal/kJPmZttedahfIvsZDGTd.svg",
+  "https://gw.alipayobjects.com/zos/rmsportal/ktLOdfjNyExgKyWjiCvm.svg",
+  "https://gw.alipayobjects.com/zos/rmsportal/gNNxbrNqlHdnRuMjUXrL.svg",
+  "https://gw.alipayobjects.com/zos/rmsportal/qWaneWxxMVpASpiCOcsT.svg",
+  "https://gw.alipayobjects.com/zos/rmsportal/kyCpvqWFloOpAOqzOlBg.svg",
+  "https://gw.alipayobjects.com/zos/rmsportal/bBzJNEnPvyhNUhyHipvO.svg",
+  "https://gw.alipayobjects.com/zos/rmsportal/UbEpCMXGBmDgkJXfIgMx.svg",
+  "https://gw.alipayobjects.com/zos/rmsportal/xsWGKOdkRoJnzHIZlRiD.svg"
 ];
 
 export const TeamDataSource = {
-    wrapper: { className: 'home-page-wrapper content8-wrapper' },
-    page: { className: 'home-page content8' },
-    OverPack: { playScale: 0.3 },
-    titleWrapper: {
-        className: 'title-wrapper',
-        children: [
-            {
-                name: 'image',
-                children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
-                className: 'title-image',
-            },
-            { name: 'title', children: 'Our Team', className: 'title-h1' },
-        ],
-    },
-    block: {
-        className: 'content-wrapper',
-        children: [
-            {
-                name: 'block0',
-                md: 6,
-                xs: 24,
-                className: 'content8-block-wrapper',
-                children: {
-                    className: 'content8-block',
-                    img: {
-                        className: 'content8-img',
-                        children:
-                        koshikImg
-                    },
-                    title: { className: 'content8-title', children: 'Koshik Raj' },
-                    content: {
-                        className: 'content8-content',
-                        children: 'Co-Founder',
-                    },
-                },
-            },
-            {
-                name: 'block1',
-                md: 6,
-                xs: 24,
-                className: 'content8-block-wrapper',
-                children: {
-                    className: 'content8-block',
-                    img: {
-                        className: 'content8-img',
-                        children: manmohanImg
-                    },
-                    title: { className: 'content8-title', children: 'Manmohan Saxena' },
-                    content: {
-                        className: 'content8-content',
-                        children: 'Co-Founder',
-                    },
-                },
-            },
-            {
-                name: 'block2',
-                md: 6,
-                xs: 24,
-                className: 'content8-block-wrapper',
-                children: {
-                    className: 'content8-block',
-                    img: {
-                        className: 'content8-img',
-                        children:
-                            'https://adventhelp.com/wp-content/uploads/2018/06/bio-portrait-placeholder.jpg',
-                    },
-                    title: { className: 'content8-title', children: 'Dr. R Singhi' },
-                    content: {
-                        className: 'content8-content',
-                        children: 'Mentor and Project\n' +
-                        'Sponsor',
-                    },
-                },
-            },
-            {
-                name: 'block2',
-                md: 6,
-                xs: 24,
-                className: 'content8-block-wrapper',
-                children: {
-                    className: 'content8-block',
-                    img: {
-                        className: 'content8-img',
-                        children: jaswanthImg
-                    },
-                    title: { className: 'content8-title', children: 'Jaswanth Reddy' },
-                    content: {
-                        className: 'content8-content',
-                        children: 'Developer'
-                    },
-                },
-            },
-
-        ],
-    },
+  wrapper: { className: "home-page-wrapper content8-wrapper" },
+  page: { className: "home-page content8" },
+  OverPack: { playScale: 0.3 },
+  titleWrapper: {
+    className: "title-wrapper",
+    children: [
+      {
+        name: "image",
+        children:
+          "https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg",
+        className: "title-image"
+      },
+      { name: "title", children: "Our Team", className: "title-h1" }
+    ]
+  },
+  block: {
+    className: "content-wrapper",
+    children: [
+      {
+        name: "block0",
+        md: 6,
+        xs: 24,
+        className: "content8-block-wrapper",
+        children: {
+          className: "content8-block",
+          img: {
+            className: "content8-img",
+            children: koshikImg
+          },
+          title: { className: "content8-title", children: "Koshik Raj" },
+          content: {
+            className: "content8-content",
+            children: "Co-Founder"
+          }
+        }
+      },
+      {
+        name: "block1",
+        md: 6,
+        xs: 24,
+        className: "content8-block-wrapper",
+        children: {
+          className: "content8-block",
+          img: {
+            className: "content8-img",
+            children: manmohanImg
+          },
+          title: { className: "content8-title", children: "Manmohan Saxena" },
+          content: {
+            className: "content8-content",
+            children: "Co-Founder"
+          }
+        }
+      },
+      {
+        name: "block2",
+        md: 6,
+        xs: 24,
+        className: "content8-block-wrapper",
+        children: {
+          className: "content8-block",
+          img: {
+            className: "content8-img",
+            children:
+              "https://adventhelp.com/wp-content/uploads/2018/06/bio-portrait-placeholder.jpg"
+          },
+          title: { className: "content8-title", children: "Dr. R Singhi" },
+          content: {
+            className: "content8-content",
+            children: "Mentor and Project\n" + "Sponsor"
+          }
+        }
+      },
+      {
+        name: "block2",
+        md: 6,
+        xs: 24,
+        className: "content8-block-wrapper",
+        children: {
+          className: "content8-block",
+          img: {
+            className: "content8-img",
+            children: jaswanthImg
+          },
+          title: { className: "content8-title", children: "Jaswanth Reddy" },
+          content: {
+            className: "content8-content",
+            children: "Developer"
+          }
+        }
+      },
+      {
+        name: "block2",
+        md: 6,
+        xs: 24,
+        className: "content8-block-wrapper",
+        children: {
+          className: "content8-block",
+          img: {
+            className: "content8-img",
+            children: abhinavImg
+          },
+          title: { className: "content8-title", children: "Abhinav Anshul" },
+          content: {
+            className: "content8-content",
+            children: "Frontend Engineer"
+          }
+        }
+      }
+    ]
+  }
 };
 
-
 export const footer = [
-  { text: 'Twitter', src: 'https://twitter.com/consensolabs' },
-  { text: 'GitHub', src: 'https://github.com/consensolabs' },
-  { text: 'Contact', src: 'mailto:admin@consensolabs.com' },
+  { text: "Twitter", src: "https://twitter.com/consensolabs" },
+  { text: "GitHub", src: "https://github.com/consensolabs" },
+  { text: "Contact", src: "mailto:admin@consensolabs.com" }
 ];
